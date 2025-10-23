@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7">
+  <diagram name="Page-1" id="hPFfL_3G40Fb_o8q19qE">
+    <mxGraphModel dx="1426" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-2" value="Backend (Python)" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="560" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-1" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="271.25" y="230" width="128.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="y0Dap5EuRkSsee_ldpPX-1" target="y0Dap5EuRkSsee_ldpPX-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="230" />
+              <mxPoint x="370" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-30" value="&lt;div&gt;rendered infos&lt;/div&gt;&lt;div&gt;e.g. grouped by genre&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0Dap5EuRkSsee_ldpPX-28">
+          <mxGeometry x="-0.2287" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="y0Dap5EuRkSsee_ldpPX-23" target="y0Dap5EuRkSsee_ldpPX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="311" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-9" value="&lt;div&gt;image of shelf&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0Dap5EuRkSsee_ldpPX-8">
+          <mxGeometry x="-0.1231" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-7" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" target="y0Dap5EuRkSsee_ldpPX-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="197.5" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-17" value="pass image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0Dap5EuRkSsee_ldpPX-7">
+          <mxGeometry x="-0.1773" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0Dap5EuRkSsee_ldpPX-10" target="y0Dap5EuRkSsee_ldpPX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-10" value="&lt;div&gt;identify&amp;nbsp;&lt;/div&gt;&lt;div&gt;book spines&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y0Dap5EuRkSsee_ldpPX-11" target="y0Dap5EuRkSsee_ldpPX-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-11" value="&lt;div&gt;extract spine&lt;/div&gt;&lt;div&gt;text&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="y0Dap5EuRkSsee_ldpPX-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="520" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-18" value="&lt;div&gt;return boxes +&amp;nbsp;&lt;/div&gt;&lt;div&gt;book data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0Dap5EuRkSsee_ldpPX-16">
+          <mxGeometry x="0.1197" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-19" value="&lt;div&gt;find matching&amp;nbsp;&lt;/div&gt;&lt;div&gt;entries in book db&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-23" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-31" value="e.g. Django or flask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281.25" y="235" width="108.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-33" value="CI / CD" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y0Dap5EuRkSsee_ldpPX-34" value="Hosting" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
